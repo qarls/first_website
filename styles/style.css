@@ -1,3 +1,4 @@
+/* first_website/styles/style.css */
 html {
     /* px means "pixels". The base font size is now 10 pixels high */
     font-size: 10px;
@@ -36,12 +37,14 @@ a {
 }
 
 p {
+    margin: 5px auto;
     color: #e6d6ac;
     border: 1px dashed black;
 }
 
 li {
     /*color: #E68183;*/
+    margin: 0 auto;
     color: #eca0a2;
 }
 
@@ -64,4 +67,18 @@ h3 {
     color: #a6cecb;
     font-size: 20px;
     text-align: left;
+}
+
+.niko {
+    width: 128px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Interactivity */
+
+.done {
+    color: darkseagreen;
+    text-decoration: line-through solid black 2px;
 }
