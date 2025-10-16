@@ -1,0 +1,48 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+  /* Miramere */
+  background-color: #2A2426;
+}
+
+p,
+li {
+    width: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+img {
+    width: 400px;
+    text-align: center /* don't work */
+}
+
+p {
+    color: #E6D6AC;
+    border: 1px dashed black;
+}
+
+li {
+    /*color: #E68183;*/
+    color: #ECA0A2;
+}
+
+h1 {
+    color: #D9BB80;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: #87C095;
+    font-size: 24px;
+    text-align: left;
+}
+
+h3 {
+    color: #A6CECB;
+    font-size: 20px;
+    text-align: left;
+}
